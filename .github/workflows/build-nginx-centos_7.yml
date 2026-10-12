@@ -9,24 +9,7 @@ on:
         description: 'Nginx version to build (e.g., 1.31.6)'
         required: true
         type: string
-      arch:
-        description: 'Filter by architecture (leave empty for all)'
-        required: false
-        type: choice
-        default: ''
-        options:
-          - ''
-          - x86_64
-          - aarch64
-      prefix_name:
-        description: 'Filter by prefix (leave empty for all)'
-        required: false
-        type: choice
-        default: ''
-        options:
-          - ''
-          - usr_local
-          - opt_software
+
 permissions:
   contents: write
 
