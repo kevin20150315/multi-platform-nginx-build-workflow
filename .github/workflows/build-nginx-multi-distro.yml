@@ -75,6 +75,10 @@ jobs:
             image: macrosan/kylin:v10-sp3-2403
             openssl: "1.1.1w"
 
+          - name: centos_7_9_2009
+            image: centos/centos7.9.2009
+            openssl: "1.1.1w"
+
           - name: openeuler_22_03
             image: openeuler/openeuler:22.03-lts-sp4
             openssl: "1.1.1w"
