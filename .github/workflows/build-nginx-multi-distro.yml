@@ -36,7 +36,6 @@ on:
           - kylin_v10
           - openeuler_22_03
           - openeuler_24_03
-          - centos_7_9_2009
       arch:
         description: 'Filter by architecture (leave empty for all)'
         required: false
@@ -73,10 +72,6 @@ jobs:
         os:
           - name: kylin_v10
             image: macrosan/kylin:v10-sp3-2403
-            openssl: "1.1.1w"
-
-          - name: centos_7_9_2009
-            image: centos:centos7.9.2009
             openssl: "1.1.1w"
 
           - name: openeuler_22_03
